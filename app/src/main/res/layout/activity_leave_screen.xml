@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+
+    tools:context=".LeaveScreen">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="60dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="80dp"
+            android:background="@drawable/clglogo"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="My WISTM"
+            android:textAlignment="center"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:textColor="#D04A4A"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/rounded_button"
+            android:text="3"
+            android:id="@+id/leavesleft"
+            android:textAlignment="center"
+            android:textSize="50dp"/>
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:text=" Number of leaves left"
+            android:textSize="18dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:layout_weight="1"
+            android:id="@+id/applyleave"
+            android:layout_marginLeft="30dp"
+            android:text="Apply"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/rounded_button"
+            android:text="3"
+            android:id="@+id/appliedleaves"
+            android:textAlignment="center"
+            android:textSize="50dp"/>
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Number of leaves applied"
+            android:layout_weight="1"
+            android:layout_marginLeft="0dp"
+            android:textSize="18dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:text="Leaves"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:textSize="18dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:id="@+id/leeavestatus"
+            android:layout_weight="1"
+            android:layout_marginLeft="30dp"
+            android:text="Know Status"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/adminlayoiut"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:id="@+id/leavedetailsunderapprove"
+            android:text=""
+            android:textSize="18dp"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:id="@+id/enterpersonid"
+            android:hint="Enter person id"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textSize="14dp"
+            android:layout_weight="1"
+            android:id="@+id/approve"
+            android:layout_gravity="center"
+            android:layout_marginLeft="0dp"
+            android:text="Approve"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</LinearLayout>

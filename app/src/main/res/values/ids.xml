@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="email" type="id" />
+    <item name="date" type="id" />
+    <item name="name" type="id" />
+    <item name="taskid" type="id" />
+    <item name="employeeid" type="id" />
+    <item name="tasktype" type="id" />
+    <item name="tasks" type="id" />
+    <item name="status" type="id" />
+    <item name="remarks" type="id" />
+    <item name="submit" type="id" />
+    <item name="add_another_task" type="id" />
+</resources>
